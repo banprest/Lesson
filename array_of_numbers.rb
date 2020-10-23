@@ -1,2 +1,8 @@
-number = [10, 15, 20, 25, 30, 35, 40, 45, 50, 60, 65, 70, 75, 80, 85, 90, 95, 100]
+number = [10]
+count = 10
+while count == 100
+  count += 5
+  number >> count
+end
 puts number
+

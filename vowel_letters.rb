@@ -1,2 +1,3 @@
-letters = { 'a' => 1, 'e' => 5, 'i' => 9, 'o' => 15, 'u' => 21, 'y' => 25}
-puts letters
+alphabet = Hash[[('a'..'z').to_a, (1..26).to_a].transpose]
+alphabet.select! { |letter, number| ['a', 'e', 'i', 'o', 'u', 'y'].include?(letter) }
+puts alphabet

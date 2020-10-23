@@ -1,6 +1,4 @@
-buyer = {
-
-}
+buyer = {}
 sum = 0
 loop do
   puts 'Введите название товара'
