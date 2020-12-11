@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-10T21:02:06.898Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 OPR/72.0.3815.400" etag="MdUaQQZ7B_lnsN9HzxtI" version="14.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-11T09:10:29.266Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 OPR/72.0.3815.400" etag="2CdCMS_orcUIKTPmOTSN" version="14.0.0" type="github">
   <diagram id="vrH7q5S-a7BI5Bq2vQL7" name="Page-1">
     <mxGraphModel dx="1889" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -53,17 +53,45 @@
             <mxPoint x="179.5" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GxquiDcSoge0WT4VxWAJ-1" value="&lt;h3&gt;Отношение многие к одному&lt;br&gt;(1 категория много тестов)&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="GxquiDcSoge0WT4VxWAJ-1" value="&lt;h3&gt;Отношение многие к одному&lt;br&gt;(1 категория много тестов)&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="-80" y="200" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GxquiDcSoge0WT4VxWAJ-2" value="&lt;h3&gt;Отношение многие к одному&amp;nbsp;&lt;br&gt;(1 тест много вопросов)&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="GxquiDcSoge0WT4VxWAJ-2" value="&lt;h3&gt;Отношение многие к одному&amp;nbsp;&lt;br&gt;(1 тест много вопросов)&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="-90" y="420" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GxquiDcSoge0WT4VxWAJ-3" value="&lt;h3&gt;Отношение многие к одному&lt;br&gt;(1 вопрос много ответов)&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="GxquiDcSoge0WT4VxWAJ-3" value="&lt;h3&gt;Отношение многие к одному&lt;br&gt;(1 вопрос много ответов)&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="480" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GxquiDcSoge0WT4VxWAJ-4" value="&lt;h3&gt;Отношение многие к многим&lt;br&gt;(пользователь может проходить много тестов,&lt;br&gt; также один тест может быть у разных пользователей)&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="219" y="165" width="390" height="80" as="geometry" />
+        <mxCell id="GxquiDcSoge0WT4VxWAJ-4" value="&lt;h3&gt;Отношение многие к многим&lt;br&gt;(пользователь может проходить много тестов,&lt;br&gt; также один тест может быть у разных пользователей)&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="100" width="390" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r5knVR1qnYwYEv3FwmEI-1" value="&lt;h3&gt;категорию можно&lt;br&gt;создать без теста,&lt;/h3&gt;&lt;h3&gt;тест без категории нельзя&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="80" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="r5knVR1qnYwYEv3FwmEI-2" value="&lt;h3&gt;Тест можно создать без вопросов,&lt;br&gt;вопросы без тестов нельзя&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="320" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r5knVR1qnYwYEv3FwmEI-3" value="&lt;h3&gt;Вопросы без ответов создать можно,&lt;br&gt;ответы без вопросов нельзя&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="370" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r5knVR1qnYwYEv3FwmEI-6" value="" style="endArrow=ERmandOne;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;strokeWidth=4;startArrow=ERzeroToMany;startFill=1;endFill=0;" edge="1" parent="1" source="pUUE5gAp4AY9ZBjPpAX3-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="340" as="sourcePoint" />
+            <mxPoint x="610" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="340" />
+              <mxPoint x="520" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r5knVR1qnYwYEv3FwmEI-7" value="&lt;h3&gt;Отношение многие к одному&amp;nbsp;&lt;br&gt;(1 создатель тестов много тестов)&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="320" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r5knVR1qnYwYEv3FwmEI-8" value="&lt;h3&gt;Тесты можно создать без автора,&lt;br&gt;пользователя можно создать без тестов&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="180" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r5knVR1qnYwYEv3FwmEI-9" value="&lt;h3&gt;Тесты можно создавать без пользователя,&lt;br&gt;пользователей можно создавать без тестов&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="180" width="320" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
